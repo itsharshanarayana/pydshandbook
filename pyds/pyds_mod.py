@@ -3,10 +3,9 @@ Created on Mar 21, 2018
 
 @author: Harsha
 '''
-import numpy as np
+import my_broadcasting as mb
 
 if __name__ == '__main__':
-    x = np.arange(3)
-    print('X shape: {}'.format(x.shape))
+    mb.display()
     
     
