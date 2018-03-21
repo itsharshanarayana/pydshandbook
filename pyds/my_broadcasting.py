@@ -30,4 +30,9 @@ def binary_operation():
     broad_result = a + 5
     print('Broadcast result: {}'.format(broad_result))
     
+def numpy_broadcasting():
+    '''
+    
+    '''
+    
     
