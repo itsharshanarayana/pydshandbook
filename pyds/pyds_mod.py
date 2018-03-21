@@ -6,6 +6,5 @@ Created on Mar 21, 2018
 import my_broadcasting as mb
 
 if __name__ == '__main__':
-    mb.display()
     
-    
+    mb.array_center()
