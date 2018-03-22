@@ -14,4 +14,4 @@ if __name__ == '__main__':
     # Comparison ufunctions
     uco.comparison_ufuncs()
     
-    
+    uco.bool_arrays()
