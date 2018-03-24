@@ -44,6 +44,13 @@ def comparison_ufuncs():
     print('two_d: {}'.format(two_d))
     print('np.less(two_d, 6): {}'.format(np.less(two_d, 6)))
     
+    a = np.random.randn(12288, 150)
+    b = np.random.randn(150, 45)
+    
+    c = np.dot(a, b)
+    
+    print('Shape of c: {}'.format(c.shape))
+    
 
 def bool_arrays():
     print()
